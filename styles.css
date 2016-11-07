@@ -1,11 +1,36 @@
-header {
-	background-color: rgb(243, 234, 245);
+body {
+	position: absolute;
+	background-color: #FFFFFF
+}
+title {
 	text-align: center;
+	font-family: Arial;
 	font-size: 30pt;
 	font-weight: bold;
 	margin: 20px 40px;
 	border-radius: 10px;
 }
-body {
-	background-color: rgb(255, 0, 0);
+table {
+	border: 2px solid black;
+	font-family: 'Lucida Console';
+	margin: 3%;
+	padding: 20px;
+	background-color: #D3D3D3;
+	border-radius: 5px;
+}
+.column1{
+	border: 1px solid black;
+	float:left;
+	margin-left: 3%;
+	width: 60%
+}
+.column2{
+	border: 1px solid black;
+	margin-right: 3%;
+	margin-left: 31px;
+	float: left;
+	width: 30%
+}
+img{
+	border: 1px solid black;
 }

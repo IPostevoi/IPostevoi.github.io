@@ -1,6 +1,7 @@
 body {
+	font-family: 'Helvetica';
 	position: absolute;
-	background-color: #FFFFFF
+	background-color: rgb(255,252,243);
 }
 title {
 	text-align: center;
@@ -11,21 +12,18 @@ title {
 	border-radius: 10px;
 }
 table {
-	border: 2px solid black;
-	font-family: 'Lucida Console';
+	border: 1px solid black;
 	margin: 3%;
 	padding: 20px;
-	background-color: #D3D3D3;
-	border-radius: 5px;
+	background-color: rgb(255,252,212);
+	border-radius: 3px;
 }
 .column1{
-	border: 1px solid black;
 	float:left;
 	margin-left: 3%;
 	width: 60%
 }
 .column2{
-	border: 1px solid black;
 	margin-right: 3%;
 	margin-left: 31px;
 	float: left;
@@ -33,4 +31,11 @@ table {
 }
 img{
 	border: 1px solid black;
+}
+.figure {
+	text-align: center;
+
+}
+.sign figcaption {
+
 }

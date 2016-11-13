@@ -11,7 +11,7 @@ title {
 	margin: 20px 40px;
 	border-radius: 10px;
 }
-table {
+.table1 {
 	border: 1px solid black;
 	margin: 3%;
 	padding: 20px;
@@ -26,16 +26,13 @@ table {
 .column2{
 	margin-right: 3%;
 	margin-left: 31px;
-	float: left;
+	float: right;
+	text-align: right;
 	width: 30%
 }
 img{
 	border: 1px solid black;
 }
-.figure {
-	text-align: center;
-
-}
-.sign figcaption {
+.columns {
 
 }

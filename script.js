@@ -1,7 +1,7 @@
 $(function(){
 	$('.spoiler-body').hide();
 	$('.spoiler-title').click(function(){
-		$(this).next().slideToggle(1000);
+		$(this).next().slideToggle(500);
 	});
 	function srollToDiv(element){
 		var offset = element.offset();

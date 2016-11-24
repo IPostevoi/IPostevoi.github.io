@@ -13,7 +13,7 @@ title {
 }
 .table1 {
 	border: 1px solid black;
-	margin: 5% 10% 0 10%;
+	margin: 5% 10% 10% 10%;
 	padding: 20px;
 	background-color: rgb(255,252,212);
 	border-radius: 3px;
@@ -25,11 +25,21 @@ title {
 	width: 70%;
 }
 .table2 {
-	margin: 3% 15% 7% 15%;
+	margin: 3% 7% 7% 7%;
 }
 .left_table1 {
 	padding: 0 0 0 5%;
 }
 .right_table1 {
 	padding: 0 5% 0 0;
+}
+.main {
+	margin: auto;
+	width: 60%;
+	padding: 2px;
+	background-color: rgb(238,232,170);
+	position: relative;
+}
+.spoiler-body {
+	visibility: none
 }

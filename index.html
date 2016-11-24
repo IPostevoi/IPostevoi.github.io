@@ -2,8 +2,12 @@
 <html>
 
 <head>
-
-	<mate charset="utf-8">
+	<script
+			  src="https://code.jquery.com/jquery-3.1.1.js"
+			  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+			  crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript"></script>
+	<meta charset="utf-8"> 
 	<link rel="stylesheet" href="styles.css">
 	
 	<title>		
@@ -32,78 +36,91 @@
 </tr>
 </table>
 
+<button class="spoiler-title">Показать текст</button>
 
-<table class="table2">
-<tr>
-	<td class="left">
-		<h4>
-	 	  	Профессиональные навыки
-		</h4>
-	</td>
-	<td class="right">
-	<h4>Годы</h4>
-	</td>
-</tr>
-<tr>
-	<td class="left">
-		<p>На кафедре теоретической механики МФТИ и на базе предприятия ОАО "Комета" занимался симуляцией моделей космических тел:</p>
-	</td>
-</tr>
-<tr>
-	<td  class="left">	
-		<ul>
-			<li> Движение низкоорбитального спутника, отслеживающего заданную траекторию, решение проблемы насыщения управляющих гиродинов </li>
-			<li> Движение спутника на орбите типа "Молния" с оптимизацией энергоприхода на рабочем участке и контролем угловых скоростей</li>
-		</ul>
-	</td>
-	<td class="right">
-		<br>
-		<strong>2015-2016</strong>
-		<br><br>
-		<strong>2016</strong>
-	</td>
-</tr>
-<tr>
-	<td class="left">
-		<p>Владение следующими программными комплексами и языками программирования:</p>
-		<ul>
-			<li>Matlab</li>
-			<li>Python</li>
-			<li>C++/C</li>
-			<li>SolidWorks</li>
-			<li>Контроль версий Git</li>
-		</ul>
-
-		<h4>
-			Дополнительные навыки:
-		</h4>
-		<ul>
-			<li>Английский язык - Intermediate</li>
-		</ul>	
-	</td>		
-</tr>
-<tr>
-	<td class="left">
-		<h4>
-			Образование
-		</h4>
-		 <p>Среднее образование:  г. Москва ЦО №1430</p>
-	  	 <p>Высшее образование:  Московский физико-технический институт</p>
-	</td>
-	<td><div class="right">
-	<strong>2002-2013</strong>
+<div class="spoiler-body">
+<div id="content">
+	<ul>
+		<li><a href="#paragraph1">Профессиональные навыки</a></li>
+		<li><a href="#paragraph1">Профессиональные навыки</a></li>
+		<li><a href="#paragraph1">Профессиональные навыки</a></li>
+	</ul>
 	</div>
-	</td> 
-</tr>
-<tr>
-	<td>	 	 
-	   	<p>Факультет аэрофизики и космических исследований<br>
-	   	Кафедра систем, устройств и методов геокосмической физики</p>
-	   	<p>Учащийся 4 курса</p>
-	</td>
-	<td class="right">
-		<strong>2013-2016</strong>
-	</td>
-</tr>	
+<div class="main">	
+	<table class="table2">
+	<tr>
+		<td class="left">
+			<h4>
+	 	  	Профессиональные навыки
+			</h4>
+		</td>
+		<td class="right">
+		<h4>Годы</h4>
+		</td>
+	</tr>
+	<tr>
+		<td class="left">
+			<p>На кафедре теоретической механики МФТИ и на базе предприятия ОАО "Комета" занимался симуляцией моделей космических тел:</p>
+		</td>
+	</tr>
+	<tr>
+		<td  class="left">	
+			<ul>
+				<li> Движение низкоорбитального спутника, отслеживающего заданную траекторию, решение проблемы насыщения управляющих гиродинов </li>
+				<li> Движение спутника на орбите типа "Молния" с оптимизацией энергоприхода на рабочем участке и контролем угловых скоростей</li>
+			</ul>
+		</td>
+		<td class="right">
+			<br>
+			<strong>2015-2016</strong>
+			<br><br>
+			<strong>2016</strong>
+		</td>
+	</tr>
+	<tr>
+		<td class="left">
+			<p>Владение следующими программными комплексами и языками 		программирования:</p>
+			<ul>
+				<li>Matlab</li>
+				<li>Python</li>
+				<li>C++/C</li>
+				<li>SolidWorks</li>
+				<li>Контроль версий Git</li>
+			</ul>
+
+			<h4>
+				Дополнительные навыки:
+			</h4>
+			<ul>
+				<li>Английский язык - Intermediate</li>
+			</ul>	
+		</td>		
+	</tr>
+	<tr>
+		<td class="left">
+			<h4>
+			Образование
+			</h4>
+		 	<p>Среднее образование:  г. Москва ЦО №1430</p>
+	  	 	<p>Высшее образование:  Московский физико-технический институт	</p>
+		</td>
+		<td><div class="right">
+		<strong>2002-2013</strong>
+		</div>
+		</td> 
+	</tr>
+	<tr>
+		<td>	 	 
+	   		<p>Факультет аэрофизики и космических исследований<br>
+	 	  	Кафедра систем, устройств и методов геокосмической физики</p>
+	   		<p>Учащийся 4 курса</p>
+		</td>
+		<td class="right">
+			<strong>2013-2016</strong>
+		</td>
+	</tr>	
+	</table>
+</div>
+</div>
 </body>
 </html>

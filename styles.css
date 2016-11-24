@@ -41,5 +41,6 @@ title {
 	position: relative;
 }
 .spoiler-body {
-	visibility: none
+	visibility: none;
+	margin: auto;
 }

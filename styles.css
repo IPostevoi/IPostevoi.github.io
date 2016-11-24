@@ -15,7 +15,7 @@ title {
 	border: 1px solid black;
 	margin: 5% 10% 10% 10%;
 	padding: 20px;
-	background-color: rgb(255,252,212);
+	background-color: rgb(238,232,170);
 	border-radius: 3px;
 }
 .right {
@@ -39,8 +39,18 @@ title {
 	padding: 2px;
 	background-color: rgb(238,232,170);
 	position: relative;
+	border-radius: 3px;
+	border: 1px solid black;
 }
 .spoiler-body {
 	visibility: none;
+}
+button {
+	padding: 5px 50px 5px 50px;
+	margin: auto; 
+}
+#Time {
 	margin: auto;
+	width: 60%;
+	padding: 70px 50px 5px 50px;
 }

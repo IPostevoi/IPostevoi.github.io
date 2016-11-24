@@ -1,7 +1,7 @@
 $(function(){
 	$('.spoiler-body').hide();
 	$('.spoiler-title').click(function(){
-		$(this).next().slideToggle();
+		$(this).next().slideToggle(1000);
 	});
 	function srollToDiv(element){
 		var offset = element.offset();
@@ -10,7 +10,7 @@ $(function(){
 
 		$('body, html').animate({
 			scrollTop: totalScroll
-		}, 10000);
+		}, 2000);
 	}
 
 	$('nav ul li a').click(function(){
